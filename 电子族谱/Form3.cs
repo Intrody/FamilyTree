@@ -39,7 +39,11 @@ namespace 电子族谱
 
         
 
-      
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Form6 form6 = new Form6();
+            form6.ShowDialog(); 
+        }
 
         private void button3_Click(object sender, EventArgs e)
         {
@@ -66,6 +70,10 @@ namespace 电子族谱
             form9.ShowDialog();
         }
 
-     
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Form10 form10 = new Form10();
+            form10.ShowDialog();
+        }
     }
 }
