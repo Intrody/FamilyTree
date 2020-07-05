@@ -50,5 +50,10 @@ namespace 电子族谱
                 MessageBox.Show("对不起，用户名和密码并不匹配！", "登陆失败");
             }
         }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
